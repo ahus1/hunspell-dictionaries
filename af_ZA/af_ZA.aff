@@ -17,15 +17,15 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #
-SET ISO8859-1
+SET UTF-8
 
-TRY ersiaontlgkdumpbvhfwyjëc-êï'BDAHzGKMEéSCöxIqFôLPèJVOTRüäûóNWáUíúòàX
+TRY ersiaontlgkdumpbvhfwyjÃ«c-ÃªÃ¯'BDAHzGKMEÃ©SCÃ¶xIqFÃ´LPÃ¨JVOTRÃ¼Ã¤Ã»Ã³NWÃ¡UÃ­ÃºÃ²Ã X
 
 # We don't want suggestions of seperate words. Because the checker
 # can't handle Afrikaans' compositions, we rather don't want to have
 # the seperate words suggested.
 #
-# Ons wil nie aparte woorde as voorstelle hê nie. Dis belangrik dat 
+# Ons wil nie aparte woorde as voorstelle hÃª nie. Dis belangrik dat 
 # die tekortkoming van die speltoetser i.v.m. samestellings die
 # gebruiker eerder met soortgelyke woorde moet help as met die aparte
 # woorde. 
@@ -42,12 +42,12 @@ NOSPLITSUGS
 # verwyderd is in die karakterstel.
 
 MAP 6
-MAP aâäáà
-MAP eêëéè
-MAP iîïíì
-MAP oôöóò
-MAP uûüúù
-MAP yÿı
+MAP aÃ¢Ã¤Ã¡Ã 
+MAP eÃªÃ«Ã©Ã¨
+MAP iÃ®Ã¯Ã­Ã¬
+MAP oÃ´Ã¶Ã³Ã²
+MAP uÃ»Ã¼ÃºÃ¹
+MAP yÃ¿Ã½
 
 PFX A Y 1
 PFX A 0 aan .
@@ -154,7 +154,7 @@ SFX P   er re eer
 SFX P   es se ees
 SFX P   et te eet
 SFX P   od de ood
-SFX P   og ë  oog
+SFX P   og Ã«  oog
 SFX P   ok ke ook
 SFX P   ol le ool
 SFX P   om me oom
@@ -176,7 +176,7 @@ SFX P   ur re uur
 #   y<->ui<->ei, uu<->ie, vir oorronding en ontronding, en y/ei-verwarring
 #   ij -> y, lijk -> lik, vir foutiewe Nederlandse spellings
 #   kuste -> ci, kuste -> kusse, vir politikuste -> politici/politikusse
-#   ui oeï, vir foute soos Hinduisme -> Hindoeïsme
+#   ui oeÃ¯, vir foute soos Hinduisme -> HindoeÃ¯sme
 #   ch->tj, sh -> sj, vir foute soos chips (tjips) en shoe (sjoe)
 REP 27
 REP g ch
@@ -199,7 +199,7 @@ REP kuste kusse
 REP x ks
 REP u oe
 REP oe u
-REP ui oeï
+REP ui oeÃ¯
 REP ch tj
 REP sh sj
 REP kie djie
